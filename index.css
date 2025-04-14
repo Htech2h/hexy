@@ -1,0 +1,31 @@
+h1,p{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+h1{
+    color: #333;
+}
+p{
+    font-size: large;
+}
+
+
+.grid {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    display: grid;
+    grid-template-columns: repeat(3, 100px); /* 3 columns */
+    gap: 10px;
+  }
+  
+  .color-box {
+    width: 100px;
+    height: 100px;
+    background-color: #ccc;
+    cursor: pointer;
+    border-radius: 8px;
+  }
+  
